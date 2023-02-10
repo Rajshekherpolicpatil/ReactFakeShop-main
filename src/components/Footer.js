@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -9,9 +8,7 @@ const Footer = () => {
 
                     <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
                         2023 KodNest&nbsp;
-                        <NavLink className="text-light text-decoration-none" to="/">
-                            App
-                        </NavLink>
+                       
                     </div>
                 </footer>
             </section>

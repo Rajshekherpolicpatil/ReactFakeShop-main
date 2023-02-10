@@ -1,9 +1,13 @@
 import React from 'react'
 import Products from './Products';
+import Navbar from './Navbar';
+import Footer from './Footer';
+
 
 const Home = () => {
     return (
         <>
+        <Navbar/>
             <div className="container px-0" style={{ marginTop: "66px" }}>
                 <div id="FakeShopCarouselInterval" className="carousel slide" data-bs-ride="carousel">
                     
@@ -17,7 +21,9 @@ const Home = () => {
                     </button>
                 </div>
                 <Products />
+
             </div>
+            <Footer/>
         </>
     )
 }
